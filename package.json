@@ -1,0 +1,19 @@
+{
+  "name": "klocka",
+  "version": "1.0.0",
+  "description": "Timing things in node.js",
+  "main": "klocka.js",
+  "scripts": {
+    "test": "tape tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlpokus/klocka.git"
+  },
+  "author": "Karl Pokus <karl.pokus@gmail.com> (https://github.com/karlpokus)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karlpokus/klocka/issues"
+  },
+  "homepage": "https://github.com/karlpokus/klocka#readme"
+}
