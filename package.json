@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "Timing things in node.js",
   "main": "klocka.js",
+  "keywords": [
+    "timing",
+    "timer",
+    "time",
+    "timeEnd",
+    "execution"
+  ],
   "scripts": {
     "test": "tape tests.js"
   },
