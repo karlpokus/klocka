@@ -27,7 +27,9 @@ app.use('/items', klocka);
 - add colours to output?
 - use table to align output?
 - def add more tests
-- add avg per route? Would require a closure
+- add an average per route? Would require a closure
+- add custom stop?
+- use server.on('request') to start?
 
 # Licence
 MIT
