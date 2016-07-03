@@ -7,10 +7,10 @@ $ npm install klocka
 ```
 
 # wat?
-- klocka logs the duration between A and B in ms. A is wherever you decide to put it and B is when response.end (or equivalent) is called.
+- klocka logs time elapsed between A and B in ms. A is wherever you decide to put it and B is when response.end (or equivalent) is called.
 - Works with express and vanilla node
-- No dependecies
-- Unobtrusive use
+- No dependencies
+- Uses time and timeEnd that requires [Node v0.1.104+](https://nodejs.org/api/console.html#console_console_time_label)
 
 # Usage w Express
 ```javascript
@@ -21,6 +21,10 @@ app.use(klocka); // logs: klocka <method> <path> <duration in ms>
 app.use('/items', klocka);
 
 // note: Express adds two middlewares by default (query and expressInit) that will not be included in the duration.
+```
+# Test
+```
+$ npm test
 ```
 
 # TODOs
