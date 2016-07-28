@@ -7,7 +7,7 @@ var test = require('tape'),
     res2 = new ee(),
     duration = 250,
     stringToMS = function(str) {
-      // klocka GET/items: 2005.754ms
+      // klocka (ts) GET/items: 2005.754ms
       return +(str.split(':')[1].trim().replace('ms', ''));
     };
     require('console.mute');
